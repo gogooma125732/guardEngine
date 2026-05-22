@@ -1,0 +1,21 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/nayeonggo/Desktop/core'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: __Z4hashPc, symObjAddr: 0x0, symBinAddr: 0x1000036F4, symSize: 0x64 }
+  - { offset: 0x3F, size: 0x8, addend: 0x0, symName: _blacklist, symObjAddr: 0x1B68, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0xB1, size: 0x8, addend: 0x0, symName: _log_head, symObjAddr: 0x1BB8, symBinAddr: 0x100008050, symSize: 0x0 }
+  - { offset: 0x128, size: 0x8, addend: 0x0, symName: _log_tail, symObjAddr: 0x1BC0, symBinAddr: 0x100008058, symSize: 0x0 }
+  - { offset: 0x13D, size: 0x8, addend: 0x0, symName: _log_count, symObjAddr: 0x1BC8, symBinAddr: 0x100008060, symSize: 0x0 }
+  - { offset: 0x152, size: 0x8, addend: 0x0, symName: _heap, symObjAddr: 0x1BCC, symBinAddr: 0x100008064, symSize: 0x0 }
+  - { offset: 0x19C, size: 0x8, addend: 0x0, symName: _heap_size, symObjAddr: 0x1C6C, symBinAddr: 0x100008104, symSize: 0x0 }
+  - { offset: 0x1A5, size: 0x8, addend: 0x0, symName: __Z4hashPc, symObjAddr: 0x0, symBinAddr: 0x1000036F4, symSize: 0x64 }
+  - { offset: 0x1DF, size: 0x8, addend: 0x0, symName: __Z16add_to_blacklistPc, symObjAddr: 0x64, symBinAddr: 0x100003758, symSize: 0x64 }
+  - { offset: 0x223, size: 0x8, addend: 0x0, symName: __Z15check_blacklistPc, symObjAddr: 0xC8, symBinAddr: 0x1000037BC, symSize: 0x9C }
+  - { offset: 0x26B, size: 0x8, addend: 0x0, symName: __Z9log_eventiPc, symObjAddr: 0x164, symBinAddr: 0x100003858, symSize: 0x140 }
+  - { offset: 0x2CB, size: 0x8, addend: 0x0, symName: __Z10push_stackP11ShadowStackm, symObjAddr: 0x2A4, symBinAddr: 0x100003998, symSize: 0x4C }
+  - { offset: 0x301, size: 0x8, addend: 0x0, symName: __Z12verify_stackP11ShadowStackm, symObjAddr: 0x2F0, symBinAddr: 0x1000039E4, symSize: 0x78 }
+  - { offset: 0x33B, size: 0x8, addend: 0x0, symName: __Z11push_threatii, symObjAddr: 0x368, symBinAddr: 0x100003A5C, symSize: 0x104 }
+  - { offset: 0x39B, size: 0x8, addend: 0x0, symName: __Z10pop_threatv, symObjAddr: 0x46C, symBinAddr: 0x100003B60, symSize: 0x14C }
+  - { offset: 0x3FF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5B8, symBinAddr: 0x100003CAC, symSize: 0x168 }
+...
